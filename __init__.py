@@ -28,7 +28,7 @@ usage：
 """.strip()
 __plugin_des__ = "原神人物语音合成"
 __plugin_cmd__ = ["xx说"]
-__plugin_version__ = 0.1
+__plugin_version__ = 0.2
 __plugin_type__ = ("原神相关",)
 __plugin_author__ = "佚名" 
 __plugin_settings__ = {
@@ -70,7 +70,7 @@ async def send_voice_handle(bot: Bot, event: MessageEvent, speaker: str, text_: 
         await send_voice.send(result)
         logger.info(
             f"USER {event.user_id} GROUP "
-            f"{event.group_id if isinstance(event, GroupMessageEvent) else 'private'} {
-speaker} 说 {text_}"
+            f"{event.group_id if isinstance(event, GroupMessageEvent) else 'private'} {speaker} 说 {text_}"
         )
+
 
