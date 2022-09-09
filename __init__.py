@@ -27,10 +27,10 @@ usage：
         '菲谢尔', '诺艾尔', '迪奥娜', '鹿野院平藏'
 """.strip()
 __plugin_des__ = "原神人物语音合成"
-__plugin_cmd__ = ["xx说"]
-__plugin_version__ = 0.2
+__plugin_cmd__ = ["xx说xxxx"]
+__plugin_version__ = 0.1
 __plugin_type__ = ("原神相关",)
-__plugin_author__ = "佚名" 
+__plugin_author__ = "Phantom" 
 __plugin_settings__ = {
     "level": 5,
     "default_status": True,
