@@ -1,4 +1,4 @@
-# zhenxun_plugin_tts
+# zhenxun_plugin_tts （API已挂，后续有消息再更新）
 真寻bot插件，53个原神角色语音合成tts
 
 ## 功能
